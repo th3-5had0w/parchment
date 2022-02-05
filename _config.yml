@@ -5,7 +5,7 @@ subtitle: The life of a frustrated engineer
 url: "https://th3-5had0w.github.io"
 baseurl: "/"
 
-footer_only_homepage: false
+footer_only_homepage: true
 footer_url: "https://twitter.com/th3_5had0w_w"
 footer_text: "Fixed by th3_5had0w"
 
