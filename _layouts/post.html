@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/windows-10.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 <div class="page-subtitle">
     {% for tag in page.tags %}
         {% if page.tags.first == tag %}
