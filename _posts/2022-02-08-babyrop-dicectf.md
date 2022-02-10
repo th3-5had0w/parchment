@@ -143,6 +143,7 @@ void create_safe_string(int i) {
 
 }
 ```
+
 This allows you to create a string with arbitrary size at specified index and then write into it.
 
 * free_safe_string
@@ -153,6 +154,7 @@ void free_safe_string(int i) {
     free(ptr);
 }
 ```
+
 Basically just a free function, we could use it to delete a string at specified index.
 
 * read_safe_string
@@ -173,6 +175,7 @@ void read_safe_string(int i) {
     fflush(stdout);
 }
 ```
+
 This function is to read data from the notes that we created. You can see this as a "leak" function.
 
 * write_safe_string
@@ -191,6 +194,7 @@ void write_safe_string(int i) {
     read(STDIN_FILENO, ptr->string, ptr->length);
 }
 ```
+
 This function allows us to write into those notes that we created. See this as an "edit" function.
 
 
@@ -400,6 +404,7 @@ rop += p64(0)
 W(2, rop)
 io.interactive() # input E command with size 0 to trigger the exploit :D
 ```
+
 Flag: `dice{glibc_2.34_stole_my_function_pointers-but_at_least_nobody_uses_intel_CET}`
 
 # Ending
