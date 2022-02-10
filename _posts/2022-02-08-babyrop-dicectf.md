@@ -126,6 +126,7 @@ int main() {
 
 Take a brief look at it and we can see we have 10 indexes to put the notes in, and this challenge have seccomp which only allows us to use some specific syscall, other than that the program will abort executing. Also, this is a classical heapnote challenge with 4 functions to interact with the notes:
 * create_safe_string:
+
 ```C
 void create_safe_string(int i) {
 
@@ -145,6 +146,7 @@ void create_safe_string(int i) {
 
 This allows you to create a string with arbitrary size at specified index and then write into it.
 * free_safe_string:
+
 ```C
 void free_safe_string(int i) {
     safe_string * ptr = data_storage[i];
@@ -155,6 +157,7 @@ void free_safe_string(int i) {
 
 Basically just a free function, we could use it to delete a string at specified index.
 * read_safe_string:
+
 ```C
 void read_safe_string(int i) {
     safe_string * ptr = data_storage[i];
@@ -175,6 +178,7 @@ void read_safe_string(int i) {
 
 This function is to read data from the notes that we created. You can see this as a "leak" function.
 * write_safe_string:
+
 ```C
 void write_safe_string(int i) {
     safe_string * ptr = data_storage[i];
@@ -402,6 +406,8 @@ io.interactive() # input E command with size 0 to trigger the exploit :D
 ```
 
 Flag: `dice{glibc_2.34_stole_my_function_pointers-but_at_least_nobody_uses_intel_CET}`
+
+
 
 # Ending
 
