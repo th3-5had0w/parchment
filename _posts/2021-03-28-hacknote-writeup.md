@@ -14,9 +14,9 @@ tag: [pwn, pwnable.tw, writeup]
 > [libc.so](https://github.com/th3-5had0w/CTF-contests/raw/master/pwnable.tw/hacknote/libc_32.so.6)
 
 - Content:
-    - [Reversing]()
-    - [Vulnerability]()
-    - [Exploit]()
+    - [Reversing](#reversing)
+    - [Vulnerability](#vulnerability)
+    - [Exploit](#exploit)
 
 # Reversing
 
