@@ -7,7 +7,7 @@ tags: [pwn, heap, writeup]
 
 > this ROP tastes kinda funny...
 >
-> nc mc.ax 31245
+> `nc mc.ax 31245`
 >
 > [Challenge](https://github.com/th3-5had0w/CTF-contests/tree/master/DiceCTF2022/babyrop)
 
