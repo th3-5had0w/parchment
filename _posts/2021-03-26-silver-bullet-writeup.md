@@ -5,7 +5,7 @@ subtitle: Series of Pwnable.tw Writeups
 tag: [pwn, pwnable.tw, writeup]
 ---
 
-# Silver Bullet \[200pts\] (pwnable.tw)
+# Silver Bullet
 
 ![](https://i.etsystatic.com/5962934/d/il/76350c/2345639591/il_340x270.2345639591_2cgb.jpg)
 
