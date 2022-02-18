@@ -15,7 +15,7 @@ Not really, COW is for [Copy-on-Write](https://en.wikipedia.org/wiki/Copy-on-wri
 
 Which means when a process requests a copy of some data, the kernel does not create the actual copy until it's being written into.
 
-So why is it dirty? "Dirty" here refers to a "dirty page" that could be thrown away with [madvise](https://man7.org/linux/man-pages/man2/madvise.2.html).
+So why is it dirty? "Dirty" here refers to a "dirty page", dirty means that datas in it has been messed up, so we shouldn't get rid of that page, a "dirty page" could be thrown away with [madvise](https://man7.org/linux/man-pages/man2/madvise.2.html).
 
 From the two above, we can somehow conclude that this vulnerability has something to do with Copy-on-Write technique and madvise function. That's right. This vulnerability is a [race condition](https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/visual-basic/race-conditions-deadlocks) in the linux kernel.
 
