@@ -23,9 +23,9 @@ So what causes this race condition?
 
 Let's take an example.
 
-1. We create a copy of some read-only file.
+1.   We create a copy of some read-only file.
 
-2. We made changes to that copy:
+2.   We made changes to that copy:
 
 Now this is where the vulnerability appears.
 
