@@ -45,4 +45,4 @@ Then the write action take place, because the copy is thrown away, the kernel no
 
 Yeah, you're not wrong, the kernel has unexpectedly overwritten a "read-only" file, which is a critial bug. It can be used to overwrite anyfile, such as rewrite a "u+s" permission file, or create a new root account by editing /etc/passwd, etc.
 
-Here's [my PoC for DirtyCOW](https://github.com/th3-5had0w/DirtyCOW-PoC), well, I wrote this PoC a long time ago but till now I have the inspriation to explain about this vulnerability.
+Here's [my PoC for DirtyCOW](https://github.com/th3-5had0w/DirtyCOW-PoC), well, I wrote this PoC a long time ago but till now I have the inspiration to explain about this vulnerability.
