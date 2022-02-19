@@ -39,7 +39,7 @@ Normal: <span class="color-green">thread1 (choose place to write) -> thread1 (wr
 
 Malicious: <span class="color-green">thread1 (choose place to write)</span> -> <span class="color-orange">thread2 (do something)</span> -> <span class="color-green">thread1 (write)</span>
 
-In this case, that "do something" is actually a madvise call. So after the thread1 has chosen a place write a to-be-modified copy, the madvise will take place, madvise tells the kernel to throw away that copy, the kernel jsut simply do that instruction.
+In this case, that "do something" is actually a madvise call. So after the thread1 has chosen a place for the to-be-modified copy, the madvise will take place, madvise tells the kernel to throw away that copy, the kernel jsut simply do that instruction.
 
 Then the write action take place, because the copy is thrown away, the kernel now misunderstand that the write is supposed to perform at the origin file (the read-only file), not the copy version of it.
 
