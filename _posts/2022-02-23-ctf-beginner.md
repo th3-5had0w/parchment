@@ -34,7 +34,7 @@ I'll recommend some website specialized for each category so you can do some tra
     - Write PoCs
 
 - Cryptography:
-    - https://cryptohack.org/ (this site covers pretty much everything you need about crypto)
+    - [https://cryptohack.org/](https://cryptohack.org/) (this site covers pretty much everything you need about crypto)
 
 - Reverse Engineering:
     - [http://reversing.kr/](http://reversing.kr/)
