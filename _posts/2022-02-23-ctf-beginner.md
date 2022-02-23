@@ -26,25 +26,25 @@ If you haven't played CTF even once, I recommend you try out [picoCTF](https://p
 I'll recommend some website specialized for each category so you can do some training.
 
 - Web Exploitation:
-    - https://los.rubiya.kr/
-    - https://websec.fr/
-    - https://webhacking.kr/
-    - https://github.com/WebGoat/WebGoat
-    - https://overthewire.org/wargames/natas/
+    - [https://los.rubiya.kr/](https://los.rubiya.kr/)
+    - [https://websec.fr/](https://websec.fr/)
+    - [https://webhacking.kr/](https://webhacking.kr/)
+    - [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat)
+    - [https://overthewire.org/wargames/natas/](https://overthewire.org/wargames/natas/)
     - Write PoCs
 
 - Cryptography:
     - https://cryptohack.org/ (this site covers pretty much everything you need about crypto)
 
 - Reverse Engineering:
-    - http://reversing.kr/
-    - http://crackmes.cf/
+    - [http://reversing.kr/](http://reversing.kr/)
+    - [http://crackmes.cf/](http://crackmes.cf/)
     - Reverse real products and malwares
 
 - Pwnable:
-    - https://pwnable.tw/
-    - http://pwnable.kr/
-    - https://pwnable.xyz/
+    - [https://pwnable.tw/](https://pwnable.tw/)
+    - [http://pwnable.kr/](http://pwnable.kr/)
+    - [https://pwnable.xyz/](https://pwnable.xyz/)
     - Write PoCs
 
 # So what do I do after stepped in a particular category?
