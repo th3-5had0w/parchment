@@ -9,9 +9,9 @@ Co-author: [@woanmeo11](https://woanmeo11.github.io/)
 
 Note:
 
-<span class="color-orange">This is my own experiences, it might be suitable for you or not.</span>
+* <span class="color-orange">This is my own experiences, it might be suitable for you or not.</span>
 
-<span class="color-orange">You have to be patient, commitment, and sheer-fvcking will. Else you're not gonna learn anything. Computer Security is not for the script kiddies or lazy, ignorant people.</span>
+* <span class="color-orange">You have to be patient, commitment, and sheer-fvcking will. Else you're not gonna learn anything. Computer Security is not for the script kiddies or lazy, ignorant people.</span>
 
 # What is CTF?
 
