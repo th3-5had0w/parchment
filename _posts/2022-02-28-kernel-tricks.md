@@ -7,6 +7,7 @@ tags: [kernel, pwn]
 
 - Content:
     - [Disable kernel mitigations](#disable-kernel-mitigations)
+        - [Enable userfaultfd syscall for unprivileged users](#enable-userfaultfd-syscall-for-unprivileged-users)
 
 # Disable kernel mitigations
 
