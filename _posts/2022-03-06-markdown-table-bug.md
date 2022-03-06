@@ -90,7 +90,7 @@ Look at [1], you can see that the n_column is uint16_t type, which ranges from 0
 
 [4] This checks if the parsing has been processed correctly, if:
 
-- some unexpected behavior (`offset != len`, everytime the program bypass a "|" character the `offset` will be increased, the `len` is the length of a line of the table) happens
+- some unexpected behavior (`offset != len`, everytime the program bypass a "\|" character the `offset` will be increased, the `len` is the length of a line of the table) happens
 
 - the number of columns is valid (`row->n_columns == 0`)
 
