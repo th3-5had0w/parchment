@@ -82,15 +82,15 @@ Functions analysis:
 
 free_table_row actually calls `cmark_llist_free_full`:
 
-Look at [1], you can see that the n_column is uint16_t type, which ranges from 0x0 to 0xffff.
+Look at [1], you can see that the `n_column` is uint16_t type, which ranges from 0x0 to 0xffff.
 
-[2] Before parsing a row the program reset n_column to 0
+[2] Before parsing a row the program reset `n_column` to 0.
 
-[3] Every "cell" passing by the n_column value will be increased by 1
+[3] Every "cell" passing by the `n_column` value will be increased by 1.
 
 [4] This checks if the parsing has been processed correctly, if:
 
-- some unexpected behavior (`offset != len`, everytime the program bypass a "\|" character the `offset` will be increased, the `len` is the length of a line of the table) happens
+- some unexpected behavior (`offset != len`, everytime the program bypass a "\|" character the `offset` will be increased, the `len` is the length of a line of the table) happens.
 
 - the number of columns is valid (`row->n_columns == 0`)
 
@@ -132,7 +132,7 @@ static void free_table_cell(cmark_mem *mem, void *data) {
 cmark_llist_free_full(mem, row->cells, (cmark_free_func)free_table_cell);
 ```
 
-This is simple just free all the cell-pointers on a row. Not thing particular to exploit here.
+<span class="color-orange">This is simple just free all the cell-pointers on a row. Not thing particular to exploit here.</span>
 
 To make sure i analysed the bug correctly i wrote a small script to generate buggy markdown:
 ```python
